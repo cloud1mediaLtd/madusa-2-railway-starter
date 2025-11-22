@@ -37,6 +37,8 @@ jobs:
         env:
           # Provide placeholder env vars for build validation
           DATABASE_URL: postgresql://localhost:5432/medusa_test
+          JWT_SECRET: test_jwt_secret_for_ci_build_only
+          COOKIE_SECRET: test_cookie_secret_for_ci_build_only
 
       - name: Validate build artifacts
         run: |
