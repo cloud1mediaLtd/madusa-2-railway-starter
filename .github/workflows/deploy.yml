@@ -42,8 +42,8 @@ jobs:
 
       - name: Validate build artifacts
         run: |
-          if [ ! -d "backend/dist" ]; then
-            echo "Backend build failed - dist directory not found"
+          if [ ! -d "backend/.medusa/server" ]; then
+            echo "Backend build failed - .medusa/server directory not found"
             exit 1
           fi
           echo "✅ Backend build successful"
