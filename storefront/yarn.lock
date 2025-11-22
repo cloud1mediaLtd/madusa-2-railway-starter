@@ -579,6 +579,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@heroicons/react@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@heroicons/react@npm:2.2.0"
+  peerDependencies:
+    react: ">= 16 || ^19.0.0-rc"
+  checksum: 10/5bf8a3faa16f1566165bfaec2448ce3c2bd3e4f49e446ccf233f6aa63626155585eaf7e89f01fb4e8e92dfca3d7113b8c517c3b3c04036b9243c818595db3908
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.9.2":
   version: 0.9.5
   resolution: "@humanwhocodes/config-array@npm:0.9.5"
@@ -7419,6 +7428,7 @@ __metadata:
   dependencies:
     "@babel/core": "npm:^7.17.5"
     "@headlessui/react": "npm:^2.2.0"
+    "@heroicons/react": "npm:^2.2.0"
     "@medusajs/js-sdk": "npm:latest"
     "@medusajs/types": "npm:latest"
     "@medusajs/ui": "npm:latest"
@@ -7439,6 +7449,7 @@ __metadata:
     eslint-config-next: "npm:16.0.3"
     lodash: "npm:^4.17.21"
     medusajs-launch-utils: "npm:0.0.18"
+    meilisearch: "npm:^0.54.0"
     next: "npm:16.0.3"
     pg: "npm:^8.11.3"
     postcss: "npm:^8.4.8"
@@ -7610,6 +7621,13 @@ __metadata:
     init-backend: bin/initializeBackend.js
     launch-storefront: bin/launchStorefront.js
   checksum: 10/8f2c4dd59cb0fc5b2c63d34f1e4f2c25da35dd678ea354e9dae12dca1b11c2a2068b49824e818304134b39057099ed9f040547a55405caef8971ee374fdcb7fa
+  languageName: node
+  linkType: hard
+
+"meilisearch@npm:^0.54.0":
+  version: 0.54.0
+  resolution: "meilisearch@npm:0.54.0"
+  checksum: 10/b8fdc09740037a6b83d383a0c1d0b6578bdafd51b10431026d5a612a002639464116606a9f51fda2dc7908851fd396e6ef1f3eb1e4ad4ec8e2104c5abfeaf808
   languageName: node
   linkType: hard
 
